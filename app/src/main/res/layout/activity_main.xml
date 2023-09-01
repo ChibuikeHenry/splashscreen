@@ -14,12 +14,12 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.779" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -28,9 +28,10 @@
         android:background="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042"
+        app:layout_constraintVertical_bias="0.291"
         app:srcCompat="?android:attr/fingerprintAuthDrawable"
         tools:targetApi="N_MR1" />
 
@@ -38,10 +39,10 @@
         android:id="@+id/second_act_btn"
         android:layout_width="205dp"
         android:layout_height="50dp"
-        android:background="#FFEB3B"
+        android:background="#B41C49BA"
         android:text="We Move"
-        android:textColorHighlight="@color/design_default_color_error"
-        android:textColorHint="#2196F3"
+        android:textColorHighlight="@color/design_default_color_on_secondary"
+        android:textColorHint="#3B2196F3"
         android:textColorLink="@color/material_dynamic_neutral40"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
